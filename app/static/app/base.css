@@ -1,0 +1,38 @@
+:root{
+    --orange: #ffa400;
+    --light-blue: #009ffd;
+    --dark-blue: #2a2a72;
+    --charc: #232528;
+    --ivory: #eaf6ff;
+}
+body {
+    background-color: var(--charc);
+}
+
+.base-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.header-title{
+    margin: 10px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav a{
+    color: inherit;
+    margin: 10px;
+    text-decoration: none;
+}
+
+hr { 
+    color: var(--dark-blue)
+}
